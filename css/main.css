@@ -87,19 +87,19 @@ li,
   font-size: 20px;
   text-align: center;
   font-weight: bold;
-  color: #ff6b00;
-  border: 2px solid #ff6b00;
+  color: #fcce00;
+  border: 2px solid #fcce00;
   padding: 6px;
   border-radius:15px;
   text-decoration: none;
   float: right;
 }
 
-.bouton3 {
+.bouton2 {
   font-size: 20px;
   text-align: center;
   font-weight: bold;
-  color: #ffffff;
+  color: #ff6b00;
   border: 2px solid #ff6b00;
   padding: 6px;
   border-radius:15px;
@@ -127,11 +127,11 @@ li,
   text-align: center;
   font-weight: bold;
   color: #ffffff;
-  border: 2px solid #fcce00;
+  border: 2px solid #ffffff;
   padding: 6px;
   border-radius:15px;
   text-decoration: none;
-  float: right;
+  float: left;
 }
 
 .titre4{
@@ -194,6 +194,94 @@ li,
 .boxgauche2 img {
   mix-blend-mode:darken;
 }
+
+.produit2 {
+  display: flex;
+  background:linear-gradient(#e02020,transparent) left repeat;
+
+}
+
+.box3{
+  text-align: justify;
+  width: 50%;
+  margin-right: 32px;
+  
+  flex-basis: 0;
+  flex-grow: 1;
+}
+.boxdroite3 {
+
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  
+  flex-basis: 0;
+  flex-grow: 1;
+}
+.boxdroite3 img {
+  mix-blend-mode:darken;
+}
+
+
+.produit3 {
+  display: flex;
+  background:linear-gradient(#b620e0,transparent) left repeat;
+
+  .box3 {
+    text-align: justify;
+    width: 50%;
+    margin-right: 32px;
+    
+    flex-basis: 0;
+    flex-grow: 1;
+  }
+  .boxdroite {
+  
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(#fcce00,transparent) left repeat, url(bitmap4.png);
+    
+    flex-basis: 0;
+    flex-grow: 1;
+  }
+  .boxdroite img {
+    mix-blend-mode:darken;
+  }
+
+
+
+
+
+
+}
+
+.produit4 {
+  display: flex;
+  background:linear-gradient(#6236ff,transparent) left repeat;
+  .box1{
+    text-align: justify;
+    width: 50%;
+    margin-right: 32px;
+    
+    flex-basis: 0;
+    flex-grow: 1;
+  }
+  .boxdroite {
+  
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(#fcce00,transparent) left repeat, url(bitmap5.png);
+    
+    flex-basis: 0;
+    flex-grow: 1;
+  }
+  .boxdroite img {
+    mix-blend-mode:darken;
+  }
+}
+
 
 p 
 
