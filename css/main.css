@@ -83,22 +83,23 @@ li,
 }
 
 .bouton1{
+  margin-top: 32px;
   font-size: 20px;
   text-align: center;
   font-weight: bold;
-  color: #fcce00;
-  border: 2px solid #fcce00;
+  color: #ff6b00;
+  border: 2px solid #ff6b00;
   padding: 6px;
   border-radius:15px;
   text-decoration: none;
   float: right;
 }
 
-.bouton2 {
+.bouton3 {
   font-size: 20px;
   text-align: center;
   font-weight: bold;
-  color: #ff6b00;
+  color: #ffffff;
   border: 2px solid #ff6b00;
   padding: 6px;
   border-radius:15px;
@@ -146,12 +147,14 @@ li,
 
 .box1{
   text-align: justify;
+  width: 50%;
   margin-right: 32px;
   
   flex-basis: 0;
   flex-grow: 1;
 }
 .boxdroite {
+
   display:flex;
   align-items: center;
   justify-content: center;
@@ -163,6 +166,37 @@ li,
 .boxdroite img {
   mix-blend-mode:darken;
 }
+
+.boxgauche2{
+  margin-top: 30px;
+  margin-right: 32px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background:linear-gradient(#ff6b00,transparent) left repeat, url(bitmap2.png);
+  
+  flex-basis: 0;
+  flex-grow: 1;
+
+
+}
+
+.box2{
+
+  text-align: justify;
+  width: 50%;
+  margin-right: 32px;
+  
+  flex-basis: 0;
+  flex-grow: 1; 
+}
+
+.boxgauche2 img {
+  mix-blend-mode:darken;
+}
+
+p 
+
 p{
   font-size:16px;
 }
