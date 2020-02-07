@@ -81,11 +81,17 @@ li,
   font-weight: 400;
   color:#231f20;
 }
+
 .bouton1{
   font-size: 20px;
   text-align: center;
   font-weight: bold;
   color: #fcce00;
+  border: 2px solid #fcce00;
+  padding: 6px;
+  border-radius:15px;
+  text-decoration: none;
+  float: right;
 }
 
 .bouton2 {
@@ -93,6 +99,11 @@ li,
   text-align: center;
   font-weight: bold;
   color: #ff6b00;
+  border: 2px solid #ff6b00;
+  padding: 6px;
+  border-radius:15px;
+  text-decoration: none;
+  float: right;
 }
 
 .titre3 {
@@ -115,6 +126,11 @@ li,
   text-align: center;
   font-weight: bold;
   color: #ffffff;
+  border: 2px solid #fcce00;
+  padding: 6px;
+  border-radius:15px;
+  text-decoration: none;
+  float: right;
 }
 
 .titre4{
@@ -124,6 +140,32 @@ li,
   color: #ffffff; 
 }
 
+.produit {
+  display: flex;
+}
+
+.box1{
+  text-align: justify;
+  margin-right: 32px;
+  
+  flex-basis: 0;
+  flex-grow: 1;
+}
+.boxdroite {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background:linear-gradient(#fcce00,transparent) left repeat, url(bitmap.png);
+  
+  flex-basis: 0;
+  flex-grow: 1;
+}
+.boxdroite img {
+  mix-blend-mode:darken;
+}
+p{
+  font-size:16px;
+}
 h1 {
    /* Default font, size, and margins */
 }
