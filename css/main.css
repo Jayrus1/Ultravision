@@ -330,8 +330,8 @@ footer {
 
 .produit3 {
   display: flex;
-  background:linear-gradient(#b620e0,transparent) left repeat;
-
+  background:linear-gradient(#b620e0,transparent)left repeat;
+}
   .box3 {
     text-align: justify;
     width: 50%;
@@ -353,13 +353,6 @@ footer {
   .boxdroite img {
     mix-blend-mode:darken;
   }
-
-
-
-
-
-
-}
 
 .produit4 {
   display: flex;
